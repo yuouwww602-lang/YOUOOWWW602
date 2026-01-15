@@ -4,6 +4,7 @@
 ;;; - No Express Tools
 ;;; - Safe for LT (COM unavailable -> fallback)
 ;;; - Avoids DXF group (7)
+;;; - Uses (fboundp 'fn) for function checks only
 ;;; ============================================================
 
 (setq *GTOL_DEBUG* nil)
